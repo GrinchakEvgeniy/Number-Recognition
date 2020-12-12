@@ -1,0 +1,134 @@
+.container {
+    /*width: 480px;*/
+    /*height: 480px;*/
+    /*margin: 0 auto;*/
+}
+.container .main {
+    display: flex;
+}
+.neur {
+    background: blue;
+    width: 3px;
+    height: 6px;
+    margin: 0.5px;
+}
+.switch__ {
+    display: flex;
+    margin: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+.NN {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.inputN, .hiddenN, .output {
+    display: flex;
+    margin-bottom: 100px;
+}
+.graphics {
+    display: flex;
+    justify-content: space-around;
+}
+.drp_main {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+.max_y {
+    position: absolute;
+    top: 0;
+    left: -33px;
+}
+.zero {
+    position: absolute;
+    left: -33px;
+    bottom: -33px;
+}
+.max_x {
+    position: absolute;
+    bottom: -33px;
+    right: 0px;
+}
+.result_ {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+}
+.gr {
+    width: 25px;
+    background: #58b560;
+    position: relative;
+}
+.gr p {
+    position: absolute;
+    margin: 0;
+    top: -17px;
+    left: 8px;
+}
+.hiddenN .neur {
+    width: 4px;
+    height: 10px;
+    margin: 1px;
+}
+.output .neur {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.Field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+}
+.field_item {
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    background: white;
+    border: 1px grey solid;
+}
+.button {
+    width: 100px;
+    align-items: center;
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 7px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.recognite {
+    background: #93e6a5;
+}
+.clear {
+    background: #939b2f;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title_res {
+    font-size: 25px;
+}
+.result_number {
+        font-size: 37px;
+}
